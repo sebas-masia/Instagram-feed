@@ -1,0 +1,43 @@
+* {
+    border: 1px red solid;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.post {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.post > h2, .post > p:first-of-type {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.post > p:first-of-type {
+    float: right;
+}
+
+.post > img {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post > p:last-of-type {
+    margin: auto;
+    padding: 5px;
+}
